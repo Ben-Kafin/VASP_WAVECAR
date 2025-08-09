@@ -311,8 +311,8 @@ class WaveMatcher:
 
 
 if __name__ == "__main__":
-    simple = r"C:/Users/Benjamin Kafin/Documents/VASP/fcc/adatom_surface/kp1/"
-    full   = r"C:/Users/Benjamin Kafin/Documents/VASP/fcc/kp1/"
+    simple = r"dir1"
+    full   = r"dir2"
 
     matcher = WaveMatcher(simple, full)
     matcher.run(
@@ -321,4 +321,5 @@ if __name__ == "__main__":
         cmap_name="coolwarm",
         power=0.36,
         interactive=True
+
     )
