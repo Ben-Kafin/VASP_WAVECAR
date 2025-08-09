@@ -56,7 +56,7 @@ class WaveMatcher:
     @staticmethod
     def _wavefunction_norm(vec):
         """
-        Normalize a vector by the absolute value squared of a dot product with itself
+        Normalize a wavefunction
         """
         flat = vec.ravel()
         norm = np.vdot(flat,flat)
@@ -323,3 +323,4 @@ if __name__ == "__main__":
         interactive=True
 
     )
+
