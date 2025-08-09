@@ -23,9 +23,8 @@ class WaveMatcher:
     Match bands between a simple and a full system using
     k-resolved wavefunctions and energies loaded directly
     from a .npz cache (auto-generated if missing, with
-    k-weight averaging turned OFF). Overlaps are computed
-    per k-point then collapsed by weighting each complex
-    overlap by its magnitude.
+    k-weight averaging turned OFF). Overlaps are chosen
+    by magnitude.
     """
 
     def __init__(self, simple_dir, full_dir, ortho_tol=1e-8, tol=1e-6):
@@ -320,5 +319,6 @@ if __name__ == "__main__":
         interactive=True
 
     )
+
 
 
