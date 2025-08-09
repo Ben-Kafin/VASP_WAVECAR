@@ -191,6 +191,7 @@ class WavecarEigenvalParser:
 
 if __name__ == "__main__":
     # Example one-click run (Spyder-friendly)
-    directory = r'C:/Users/Benjamin Kafin/Documents/VASP/fcc/NHC/ncl'
+    directory = r'dir'
     parser    = WavecarEigenvalParser(directory)
+
     parser.run(weighted_average=True)
