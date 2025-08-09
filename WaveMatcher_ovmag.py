@@ -9,9 +9,6 @@ Created on Wed Aug  6 18:52:41 2025
 """
 wave_matcher.py
 
-Band-matching using k-point–resolved wavefunctions.  Each overlap
-is computed on unit-normalized complex coefficient vectors *per k-point*,
-then collapsed via a weighted average of the overlap magnitudes.
 """
 import os
 import numpy as np
@@ -323,4 +320,5 @@ if __name__ == "__main__":
         interactive=True
 
     )
+
 
